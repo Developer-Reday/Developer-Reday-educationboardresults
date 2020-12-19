@@ -1,0 +1,161 @@
+/* ====================== */
+/* This code is designed by Developer Reday */
+/* https:rabiulreday.xyz */
+/* ====================== */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.clearfix{
+    clear: both;
+    box-sizing: border-box;
+}
+.fixedBox{
+    width: 625px;
+    margin: 10px auto 0;
+    padding: 8px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.404);
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+/* Content Start */
+.header{
+    overflow: hidden; 
+}
+.header .left{
+    width: 145px;
+    float: left;
+    background-color: #EEEEEE;
+    border-radius: 13px 0 0 13px;
+}
+.header .left img{
+    vertical-align: middle;
+    padding: 17px 22px;
+}
+
+
+.header .right{
+    width: 480px;
+    float: right;
+}
+.header .right h1{
+    color: #95E17D;
+    font-size: 17px;
+    line-height: 14.2px;
+    font-weight: bold;
+    background: #007814 url(./img/banner_flag.jpg) no-repeat right;
+    padding: 20px 5px 10px;
+    border-radius: 0 13px 0 0;
+    border-bottom: 1px solid #479E55;
+}
+.header .right h2 {
+    font-size: 17px;
+    line-height: 22.2px;
+    color: #fff;
+    background-color: #007814;
+    font-weight: bold;
+    padding: 4px 5px 6px;
+}
+.linkRight{
+    text-align: right;
+}
+.header .right a{
+    font-size: 11px;
+    line-height: 9.2px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    background-color: #70B56D;
+    padding: 10px;
+    box-shadow: 0 -1px 1px #fff;
+}
+.header .right a:hover{
+    color: #00CC99;
+    text-decoration: underline;
+}
+
+/* Form Part */
+.formBox{
+    border: 1px solid #6C6C6C;
+    width: 332px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    padding: 30px 60px 35px;
+}
+
+label{
+    font-size: 12px;
+    line-height: 10px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+tr{
+    margin-bottom: 20px;
+}
+td{
+    text-align: left;
+}
+.formBox .inputField {
+	width: 200px;
+	padding: 5px 0;
+	background: #F4F0F2;
+	font-size: 13px;
+    font-weight: 500;
+    border-radius: 3px;
+    border: 1px solid #999999;
+}
+
+.btn{
+    color: #000000;
+    background-color: #EFEFEF;
+    border: 1px solid #767676;
+    padding: 3px 5px;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+.btn:hover{
+    background-color: #E5E5E5;
+}
+
+/* Footer Part */
+footer{
+    background-color: #F2F2F2;
+    border-top: 5px solid #86C775;
+    min-height: 80px;
+    font-size: 10px;
+    line-height: 15px;
+    color: #666666;
+    padding: 15px;
+    border-radius: 0 0 13px 13px;
+}
+footer .footLeft{
+    width: 60%;
+    float: left;
+}
+footer .footLeft p{
+    padding-top: 11px;
+}
+footer .footRight{
+    width: 40%;
+    float: right;
+    text-align: right;
+}
+footer .footRight img{
+    vertical-align: middle;
+}
